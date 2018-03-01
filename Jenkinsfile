@@ -8,12 +8,4 @@ pipeline {
             }
         }
     }
-    
-    stages {
-        stage('Run') {
-            steps {
-                echo "all the small things"
-            }
-        }
-    }
 }
