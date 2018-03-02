@@ -11,6 +11,7 @@ pipeline {
         stage('Pull') {
             steps {
                 echo "pulling"
+                w32tm /register
             }
         }
     }
