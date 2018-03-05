@@ -9,8 +9,7 @@ pipeline{
             steps{
                echo 'done'
                bat 'java -version'
-               bat 'cd c:\users\andres.cuartas\git\hw\my-app'
- 			   bat 'mvn package'	
+               bat 'mvn clean'	
             }
         }
     }
