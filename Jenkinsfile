@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                echo 'done'
-               sh 'mvn D'
+               mvn D
             }
         }
     }
