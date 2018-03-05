@@ -8,8 +8,8 @@ pipeline{
         stage('Build'){
             steps{
                echo 'done'
-               echo "PATH = ${PATH}"
-               echo "M2_HOME = ${M2_HOME}"
+               mvn clean
+               mvn compile
             }
         }
     }
