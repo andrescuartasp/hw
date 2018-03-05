@@ -9,7 +9,7 @@ pipeline{
             steps{
                echo 'done'
                bat 'java -version'
-               
+               sh 'java -version'
             }
         }
     }
