@@ -4,7 +4,8 @@ pipeline{
         stage('Build'){
             steps{
                echo 'done'
-               mvn D
+               echo "PATH = ${PATH}"
+               echo "M2_HOME = ${M2_HOME}"
             }
         }
     }
