@@ -8,8 +8,8 @@ pipeline{
         stage('Build'){
             steps{
                echo 'done'
-               mvn clean
-               mvn compile
+               mvn package
+               
             }
         }
     }
