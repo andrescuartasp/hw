@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                echo 'done'
-               sh 'java -version' 
+               sh 'mvn -B -DskipTests clean package' 
             }
         }
     }
